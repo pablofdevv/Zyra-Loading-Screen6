@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/FiveM-Compatible-orange?style=for-the-badge&logo=fivem&logoColor=white" alt="FiveM" />
+  <img src="https://img.shields.io/badge/License-Open%20Source%20(No%20Resale)-red?style=for-the-badge" alt="License" />
+  <img src="https://img.shields.io/badge/Author-Zyra%20Store-5865F2?style=for-the-badge" alt="Author" />
+</p>
+
 # 📰 Zyra Loading Screen 6 - Editorial Split-Screen Edition
 
 Welcome to **Zyra-Loading-Screen-6**, a dynamic split-screen loading screen resource by **Zyra Store**. Styled like an urban sport magazine with bold italic Montserrat typography and side-by-side media showcase.
