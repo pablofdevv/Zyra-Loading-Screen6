@@ -1,0 +1,48 @@
+/* ==========================================================================
+   ZYRA STORE - TIMINGS Y TRANSICIONES EDITORIALES (PREMIUM)
+   ========================================================================== */
+
+/* Revelaciones de entrada (Editorial Slides) */
+@keyframes leftPanelSlide {
+    from {
+        opacity: 0;
+        transform: translateX(-35px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes rightPanelSlide {
+    from {
+        opacity: 0;
+        transform: translateX(35px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.left-panel-content {
+    animation: leftPanelSlide 1.3s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.right-panel-content {
+    animation: rightPanelSlide 1.3s cubic-bezier(0.16, 1, 0.3, 1) 0.15s both;
+}
+
+/* Vibración o Brillo sutil de la tira de carga */
+@keyframes verticalLoaderPulse {
+    from {
+        box-shadow: 0 0 5px var(--accent-glow);
+    }
+    to {
+        box-shadow: 0 0 15px var(--accent-pure-white);
+    }
+}
+
+.vertical-loader-fill {
+    animation: verticalLoaderPulse 2s infinite alternate ease-in-out;
+}

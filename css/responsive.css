@@ -1,0 +1,60 @@
+/* ==========================================================================
+   ZYRA STORE - ADAPTABILIDAD RESPONSIVA EDITORIAL (PREMIUM)
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+    .left-split-panel {
+        padding: 3rem;
+    }
+    .right-split-panel {
+        padding: 3rem;
+    }
+    .editorial-server-claim {
+        font-size: 2.6rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .split-screen-wrapper {
+        flex-direction: column;
+        overflow-y: auto;
+    }
+
+    .left-split-panel {
+        width: 100%;
+        height: auto;
+        min-height: 45vh;
+        padding: 2.5rem;
+        align-items: flex-end;
+    }
+
+    .vertical-loader-strip {
+        width: 100%;
+        height: 3px;
+        top: auto;
+        bottom: 0;
+        left: 0;
+    }
+
+    .vertical-loader-fill {
+        width: 0%;
+        height: 100%;
+        transition: width 0.4s ease;
+    }
+
+    .right-split-panel {
+        width: 100%;
+        height: auto;
+        border-left: none;
+        border-top: 1px solid rgba(255, 255, 255, 0.02);
+        padding: 2.5rem;
+    }
+
+    .right-panel-content {
+        gap: 25px;
+    }
+
+    .editorial-server-claim {
+        font-size: 2.2rem;
+    }
+}
